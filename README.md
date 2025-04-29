@@ -161,6 +161,11 @@ psc: No ultimo dia antes do prazo de entrega entraremos em contato com aqueles q
 > ⚠️ **Não utilize ponto e vírgula (`;`) ao final da query**, pois isso causará erro na API.
 >> Não é permitido nenhum tipo de query diferente de SELECT, o acesso a qualquer outro endpoint da api ou banco de dados é bloqueado.
 
+- Exclua os arquivos Dockerfile e docker-compose.yaml do projeto se não for fazer o build e deploy via Docker.
+- O código do seu app deve estar sempre na pasta src/ exceto isto a estrutura de pastas é a gosto.
+- Não mover para nenhuma pasta os arquivos e pastas que já estão no repositório, estes não devem ter sua estrutura modficada.
+- Não há necessidade de manter este arquivo README.md no repositório do canditado.
+- Se houver alteração na porta exposta do Docker, sempre deixar bem claro na documentação.
 ---
 
 ## Boas Práticas e Diferenciais (Opcionais, mas recomendados)
