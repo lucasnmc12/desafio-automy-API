@@ -31,7 +31,7 @@ Clone este repositório para sua máquina e crie outro com os mesmos arquivos, a
 Ao fim da avaliação de todos os candidatos entraremos em contato.
 
 psc: No ultimo dia antes do prazo de entrega entraremos em contato com aqueles que não compartilharam o repositório github para evitar que ocorra alguma desclassificação por erro no compartilhamento.
-> Prazo - até dia x
+> Prazo - até dia 11/05 as 18:00.
 > >O prazo pode ser prolongado em caso de erro na api, ou serviço fornecido pela empresa.
 
 
