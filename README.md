@@ -131,20 +131,20 @@ psc: No ultimo dia antes do prazo de entrega entraremos em contato com aqueles q
   {
     "data_agendamento": "20/04/2025",
     "datetime_formulario": "16/04/2025 19:03:19",
-    "email": "gabriel.botveloso@gmail.com",
+    "email": "john.doe@gmail.com",
     "horario_agendamento": "20h",
-    "nome": "Gabriel Botelho Veloso",
+    "nome": "John Doe",
     "qtde_pessoas": "25",
-    "telefone": "5531999216611"
+    "telefone": "5531991234567"
   },
   {
     "data_agendamento": "20/04/2025",
     "datetime_formulario": "24/04/2025 17:59:01",
-    "email": "gabriel.botveloso@gmail.com",
+    "email": "john.doe@gmail.com",
     "horario_agendamento": "20h",
-    "nome": "Gabriel Botelho",
+    "nome": "John Doe",
     "qtde_pessoas": "25",
-    "telefone": "5531999216611"
+    "telefone": "5531991234567"
   }
 ]
 ```
@@ -155,7 +155,7 @@ psc: No ultimo dia antes do prazo de entrega entraremos em contato com aqueles q
 
 - **Tabela**: `desafio.cadastro_baterias_desafio`
 - **Banco de Dados**: `desafio`
-- **Email de consulta (usuário registrado)**: `gabriel.botveloso@gmail.com`
+- **Email de consulta (usuário registrado)**: `john.doe@gmail.com`
 
 > A consulta deve retornar apenas registros que correspondam ao email informado.  
 > ⚠️ **Não utilize ponto e vírgula (`;`) ao final da query**, pois isso causará erro na API.
