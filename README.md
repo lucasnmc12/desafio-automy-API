@@ -22,7 +22,7 @@ Será disponibilizado um **endpoint da API interna (Automy)**, acessado via **pr
 ---
 ## Instruções sobre entrega
 
-Clone este repositório para sua máquina e crie outro com os mesmos arquivos, a sua documentação deve estar em formato .md no arquivo Doc.md com seu nome, número, email e cpf, após finalizar o desafio compartilhe seu repositório com o usuário "JoaoPGOS" e envie o link do repositório via forms, segue abaixo o link do forms:
+Clone este repositório para sua máquina e crie outro com os mesmos arquivos, a sua documentação deve estar em formato .md no arquivo Doc.md com seu nome, número, email e cpf, deixe o repositório público, após finalizar o desafio compartilhe o link do repositório via forms, segue abaixo o link do forms:
 
 https://form.respondi.app/y88hNsAG
 
