@@ -22,16 +22,14 @@ Será disponibilizado um **endpoint da API interna (Automy)**, acessado via **pr
 ---
 ## Instruções sobre entrega
 
-Clone este repositório para sua máquina e crie outro com os mesmos arquivos, a sua documentação deve estar em formato .md no arquivo Doc.md com seu nome, número, email e cpf, após finalizar o desafio compartilhe seu repositório com o usuário "JoaoPGOS" e envie o link do repositório via email para os emails:
+Clone este repositório para sua máquina e crie outro com os mesmos arquivos, a sua documentação deve estar em formato .md no arquivo Doc.md com seu nome, número, email e cpf, após finalizar o desafio compartilhe seu repositório com o usuário "JoaoPGOS" e envie o link do repositório via forms, segue abaixo o link do forms:
 
-- joaopedrogoncalvesdeoliveirasi@gmail.com
-- gabriel.botveloso@gmail.com
-- victor.rvillela@gmail.com
+https://form.respondi.app/y88hNsAG
 
 Ao fim da avaliação de todos os candidatos entraremos em contato.
 
 psc: No ultimo dia antes do prazo de entrega entraremos em contato com aqueles que não compartilharam o repositório github para evitar que ocorra alguma desclassificação por erro no compartilhamento.
-> Prazo - até dia 11/05 as 18:00.
+> Prazo - até dia 11/05 as 19:00.
 > >O prazo pode ser prolongado em caso de erro na api, ou serviço fornecido pela empresa.
 
 
