@@ -1,0 +1,19 @@
+body {
+  background-color: #f8f9fa;
+}
+
+.card {
+  max-width: 600px;
+  margin: 80px auto;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+pre {
+  white-space: pre-wrap;
+  background-color: #fff;
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+  padding: 16px;
+}
