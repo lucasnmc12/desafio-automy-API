@@ -21,18 +21,11 @@ Este projeto consulta dados de baterias (corridas) agendadas em um kartódromo c
 ### 1. Clone o repositório
 
 ```bash
-git clone https://github.com/seu-usuario/desafio-automy.git
-cd desafio-automy
+git clone https://github.com/lucasnmc12/desafio-automy-API.git
+cd desafio-automy-API
 ```
 
-### 2. Crie o ambiente virtual (opcional, mas recomendado)
-
-```bash
-python -m venv venv
-venv\Scripts\activate  # Windows
-```
-
-### 3. Instale as dependências
+### 2. Instale as dependências
 
 ```bash
 pip install -r requirements.txt
@@ -43,13 +36,13 @@ pip install -r requirements.txt
 > pip install flask flask-cors requests
 > ```
 
-### 4. Execute o servidor Flask
+### 3. Execute o servidor Flask
 
 ```bash
 python src/app.py
 ```
 
-### 5. Acesse no navegador
+### 4. Acesse no navegador
 
 ```
 http://localhost:5000
@@ -86,9 +79,9 @@ desafio-automy/
 
 ## 📩 Contato
 
-**Nome:** [Seu Nome Aqui]  
-**E-mail:** [seu@email.com]  
-**Telefone:** (xx) xxxxx-xxxx  
-**CPF:** xxx.xxx.xxx-xx
+**Nome:** Lucas Nogueira MAzzieiro de Carvalho 
+**E-mail:** lucas.nogueira20mc@gmail.com
+**Telefone:** (31) 99241-0320  
+**CPF:** 018.728.636-12
 
 ---
