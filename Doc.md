@@ -75,6 +75,21 @@ desafio-automy-API/
 
 ---
 
+##  Funções e Responsabilidades
+
+- **`obter_token()`** (`auth.py`): autentica na API Automy e retorna um token JWT.
+
+- **`buscar_baterias(token, email)`** (`query.py`): realiza uma consulta SQL autenticada e retorna as baterias vinculadas ao e-mail.
+
+- **`/` (rota Flask)**: exibe a interface web com formulário para consulta.
+
+- **`/baterias` (rota Flask)**: retorna em JSON as baterias separadas em agendadas e passadas com base na data atual.
+
+- **`test_app.py`**: testa os fluxos principais simulando a API com `unittest.mock`.
+
+- **`index.html` + JS**: envia o e-mail ao backend, recebe os dados e exibe os resultados de forma interativa.
+
+
 ## ✅ Funcionalidades
 
 - Autenticação via token JWT na API da Automy  
