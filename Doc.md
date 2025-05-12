@@ -45,6 +45,8 @@ A aplicação estará acessível em:
 
 🔗 [http://localhost:5000](http://localhost:5000)
 
+> ⚠️ **Observação:** a aplicação Flask está configurada para rodar na porta `5000`.  
+
 ---
 
 ##  Testes Automatizados
