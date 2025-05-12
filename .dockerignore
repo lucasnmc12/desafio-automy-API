@@ -1,0 +1,16 @@
+# Ignorar arquivos Python compilados
+__pycache__/
+*.pyc
+
+.vscode/
+.idea/
+
+Thumbs.db
+
+.git/
+.gitignore
+
+README.md
+Doc.md
+
+
