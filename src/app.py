@@ -1,9 +1,7 @@
 from flask import Flask, request, render_template
 from auth import obter_token
 from query import buscar_baterias
-from mensagens import gerar_mensagem
 from flask import request
-from flask_cors import CORS
 from flask import jsonify
 from datetime import datetime
 
@@ -32,7 +30,7 @@ def baterias():
     print("dados retornados:", dados)
     
     # separar as baterias anteriores e as próximas
-    
+
     hoje = datetime.now().date()
     agendadas = []
     passadas = []
@@ -57,7 +55,7 @@ def baterias():
 
 
 if __name__ =="__main__":
-   app.run(debug=True)
+   app.run(host="0.0.0.0", port=5000, debug=True)
 
 
 
