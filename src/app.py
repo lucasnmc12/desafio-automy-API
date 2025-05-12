@@ -31,7 +31,8 @@ def baterias():
     dados = buscar_baterias(token, email)
     print("dados retornados:", dados)
     
-    #separar as baterias anteriores e as próximas
+    # separar as baterias anteriores e as próximas
+    
     hoje = datetime.now().date()
     agendadas = []
     passadas = []

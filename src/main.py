@@ -1,3 +1,5 @@
+# arquivo feito antes de ler sobre o diferencial de integração com frontend (roda apenas no terminal)
+
 from auth import obter_token
 from query import buscar_baterias
 from mensagens import gerar_mensagem
