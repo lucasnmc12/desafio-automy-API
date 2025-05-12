@@ -6,17 +6,18 @@ Este projeto consulta dados de baterias (corridas) agendadas em um kartódromo c
 
 ## ✅ Funcionalidades
 
-- Autenticação na API da Automy
-- Consulta de baterias associadas a um e-mail
-- Separação de baterias em:
-  - 📅 Próximos agendamentos
-  - 📁 Agendamentos anteriores
-- Interface web simples com Bootstrap
-- Exibição interativa por botões
+- 🔐 Autenticação na API Automy com token JWT
+- 📩 Consulta de baterias associadas a um e-mail
+- 📅 Separação de baterias em:
+  - Próximos agendamentos
+  - Agendamentos anteriores
+- 🌐 Interface web interativa com Bootstrap e JavaScript
+- 🧪 Testes unitários automatizados com `unittest` e `mock`
+- 🐳 Dockerfile para build e execução local
 
 ---
 
-## 🚀 Como rodar o projeto localmente
+## 🚀 Executando com Docker (recomendado)
 
 ### 1. Clone o repositório
 
@@ -25,27 +26,49 @@ git clone https://github.com/lucasnmc12/desafio-automy-API.git
 cd desafio-automy-API
 ```
 
-### 2. Instale as dependências
+### 2. Construa a imagem Docker
+
+```bash
+docker build -t desafio-api .
+```
+
+Este comando irá:
+- Instalar as dependências
+- Executar os testes (`test_app.py`)
+- Preparar a imagem pronta para execução
+
+### 3. Execute o container
+
+```bash
+docker run -p 5000:5000 desafio-api
+```
+
+### 4. Acesse no navegador
+
+[http://localhost:5000](http://localhost:5000)
+
+---
+
+## 💻 Executando sem Docker (modo alternativo)
+
+### 1. Instale as dependências:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-> Se não existir o arquivo `requirements.txt`, instale manualmente:
-> ```bash
-> pip install flask flask-cors requests
-> ```
-
-### 3. Execute o servidor Flask
+### 2. Rode o servidor:
 
 ```bash
 python src/app.py
 ```
 
-### 4. Acesse no navegador
+---
 
-```
-http://localhost:5000
+## 🧪 Executar testes manualmente
+
+```bash
+python3 -m unittest discover -s src -p "test_*.py"
 ```
 
 ---
@@ -53,35 +76,28 @@ http://localhost:5000
 ## 🗂 Estrutura do Projeto
 
 ```
-desafio-automy/
+desafio-automy-API/
 ├── src/
-│   ├── app.py               # Arquivo principal com as rotas
-│   ├── auth.py              # Função para obter token
-│   ├── query.py             # Consulta SQL à API
-│   ├── mensagens.py         # Geração de mensagens personalizadas (opcional)
+│   ├── app.py            # Servidor Flask
+│   ├── auth.py           # Autenticação com a API
+│   ├── query.py          # Consulta SQL
+│   ├── mensagens.py      # Geração de mensagens personalizadas (opcional)
 │   ├── templates/
-│   │   └── index.html       # Interface web
-│   └── static/
-│       └── style.css        # Estilos da página
-├── Doc.md                   # Documentação completa
-└── README.md                # Este arquivo
+│   │   └── index.html    # Interface do usuário
+│   ├── static/
+│   │   └── style.css     # Estilo visual da interface
+│   └── test_app.py       # Testes unitários com mocks
+├── requirements.txt      # Dependências
+├── Dockerfile            # Dockerfile com build e testes
+├── Doc.md                # Documentação completa do desafio
+└── README.md             # Este arquivo
 ```
-
----
-
-## 🧪 Testado com
-
-- Python 3.10+
-- Navegador Google Chrome
-- API Automy fornecida para o desafio
 
 ---
 
 ## 📩 Contato
 
-**Nome:** Lucas Nogueira MAzzieiro de Carvalho 
-**E-mail:** lucas.nogueira20mc@gmail.com
-**Telefone:** (31) 99241-0320  
-**CPF:** 018.728.636-12
-
----
+- **Nome:** Lucas Nogueira Mazzieiro de Carvalho  
+- **E-mail:** lucas.nogueira20mc@gmail.com  
+- **Telefone:** (31) 99241-0320  
+- **CPF:** 018.728.636-12
